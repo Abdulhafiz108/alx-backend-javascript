@@ -9,5 +9,5 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
         status: o.status,
         value: o.status === 'fulfilled' ? o.value : String(o.reason),
       }))
-    });
+    ));
 }
