@@ -1,5 +1,5 @@
 export default function updateStudentGradeByCity(students, city, newGrades) {
-  const defaultgrade = 'N/A';
+  const defaultgrade = { grade: 'N/A' };
   return students
     .filter((student) => student.location === city)
     .map((student) => ({
