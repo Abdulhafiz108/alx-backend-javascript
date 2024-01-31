@@ -1,7 +1,7 @@
-export default function(map) {
+export default function updateUniqueItems(map) {
   const map1 = map;
 
-  if (!map instanceof Map) {
+  if (!(map instanceof Map)) {
     throw new Error('Cannot process');
   }
 
