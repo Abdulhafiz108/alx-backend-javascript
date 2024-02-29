@@ -7,7 +7,7 @@ const app = http.createServer((req, res) => {
 });
 
 const PORT = 1245;
-const HOST = 'localhost';
+const HOST = '127.0.0.1';
 
 app.listen(PORT, HOST, () => {
   console.log('Server running at http://${HOST}:${PORT}/');
